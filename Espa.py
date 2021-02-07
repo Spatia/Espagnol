@@ -13,5 +13,3 @@ for i in range(nbv):
     pick = pick[0:len(pick)-1]
     tpps = tps[randint(0,len(tps)-1)]
     print(str(pick) + " " + str(tpps),end="")
-
-rd = randint(0,100)
